@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.10.4//EN
+N:Middlebrook;Dave;;;
+FN:Dave Middlebrook
+ORG:The Textmapping Project;
+EMAIL;type=INTERNET;type=WORK;type=pref:dmiddlebrook@textmapping.org
+TEL;type=IPHONE;type=CELL;type=VOICE;type=pref:+1 (609) 771-1781
+X-SOCIALPROFILE;type=Pinterest:x-apple:www.pinterest.com/davemiddlebrook
+X-SOCIALPROFILE;type=twitter:http://twitter.com/davemiddlebrook
+X-SOCIALPROFILE;type=facebook:http://facebook.com/www.facebook.com/textmapping
+X-SOCIALPROFILE;type=linkedin:http://www.linkedin.com/in/www.linkedin.com/in/davemiddlebrook
+X-SOCIALPROFILE;type=about.me:x-apple:www.about.me/davemiddlebrook
+X-SOCIALPROFILE;type=tumblr:x-apple:www.tumblr.com/davemiddlebrook
+item1.URL;type=pref:www.textmapping.org
+item1.X-ABLabel:_$!<HomePage>!$_
+UID:e7f47c70-f44a-4b1b-8991-e2533c507b9f
+X-ABUID:2A45C049-FF02-4628-9CBD-7A44F2E063C4:ABPerson
+END:VCARD

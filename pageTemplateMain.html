@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="utf-8">
+<title>The Textmapping Project, Home</title> <!-- edit the title after the comma for each new page -->
+
+<!-- begin open graph tags to customize link previews. Link to crawler at: https://developers.facebook.com/docs/sharing/webmasters/crawler -->
+<meta property="og:url" content="http://www.textmapping.org" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="The Textmapping Project" />
+<meta property="og:description" content="The home of scrolls in education. All about using scrolls and textmapping in the classroom to teach reading, comprehension strategies, and course content" />
+<meta property="og:image" content="http://www.textmapping.org/pics/textbookOnWhiteboard.jpg" />
+<!-- end open graph tags -->
+
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="language" content="english">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="classification" content="education">
+<meta name="distribution" content="global">
+<meta name="author" content="R. David Middlebrook">
+<meta name="web_author" content="R. David Middlebrook">
+<meta name="copyright" content="R. David Middlebrook">
+<meta name="resource-type" content="document">
+<meta name="doc-type" content="public">
+<meta name="doc-class" content="published">
+<meta name="doc-rights" content="copyrighted work">
+<meta name="doc-publisher" content="R. David Middlebrook">
+<meta name="robots" content="no-index, no-follow"> <!-- change to index/follow once done development -->
+<meta name="robots" content="noydir">
+<meta name="slurp" content="noydir">
+<meta name="googlebot" content="noodp">
+<meta name="robots" content="noodp">
+<meta name="no-email-collection" content="http://www.textmapping.org/noSpam.html"> <!--add a noSpam.html page -->
+<meta name="MSSmartTagsPreventParsing" content="true">
+<meta name="abstract" content="The home of scrolls in education. All about using scrolls and textmapping in the classroom to teach reading, comprehension strategies, and course content">
+<meta name="rating" content="general">   
+<meta name="keywords" content="scroll, scrolls, textmapping, text mapping, textmap, textmaps, text map, text maps, graphic organizer, graphic organizers, reading, comprehension">
+<meta name="description" content="The home of scrolls in education. All about using scrolls and textmapping in the classroom to teach reading, comprehension strategies, and course content">
+<meta name="author" content="Dave Middlebrook">
+
+<meta name="p:domain_verify" content="97faac81bc289b7ca7d80b3a955fc10d"/>
+
+<!-- update this
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="http://www.textmapping.org">
+   <dc:title>Textmapping</dc:title>
+   <dc:date>2002-12-1</dc:date>
+   <dc:description>The home of scrolls in education. All about using scrolls and textmapping in the classroom to teach reading, comprehension strategies, and course content.</dc:description>
+   <dc:creator><Agent>
+      <dc:title>R.  David Middlebrook</dc:title>
+   </Agent></dc:creator>
+   <dc:rights><Agent>
+      <dc:title>R. David Middlebrook</dc:title>
+   </Agent></dc:rights>
+   <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+<license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0" /> <!-- update CCPL? -->
+
+<!--<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0">
+   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+</License>
+
+</rdf:RDF>-->
+
+<link rel="stylesheet" type="text/css" href="css/styleMain.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+<style>
+
+#logoBox {
+    border-right-color: #696969;/* for home page, set to #696969; for all other pages, set to transparent */
+    border-bottom-right-radius: 40px;/* for home page, set to 25px; for all other pages, set to 0px */
+    border-top-right-radius: 40px;/* for home page, set to 25px; for all other pages, set to 0px */ 
+}
+
+#topButtonBooks,
+#topButtonWorkshops,
+#topButtonResearch,
+#topButtonAbout {
+    border-right: solid 2px #ffffff;
+    border-bottom: solid 2px #ffffff;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+    
+#topButtonBooks.topButtonOn {
+    border-right-color: #696969;
+    border-bottom-color: #696969;
+    background-image: url("pics/icon.png"), url("pics/scrollBackground.jpg");
+    background-position: 30px 30px, 0px 17px;
+    background-repeat: no-repeat, repeat-x;
+}
+
+#topButtonWorkshops.topButtonOn {
+    border-right-color: #696969;
+    border-bottom-color: #696969;
+    background-image: url("pics/icon.png"), url("pics/scrollBackground.jpg");
+    background-position: 10px 23px, 0px 11px;
+    background-repeat: no-repeat, repeat-x;
+}
+
+#topButtonResearch.topButtonOn {
+    border-right-color: #696969;
+    border-bottom-color: #696969;
+    background-image: url("pics/icon.png"), url("pics/scrollBackground.jpg");
+    background-position: 10px 23px, 0px 11px;
+    background-repeat: no-repeat, repeat-x;
+}
+
+#topButtonAbout.topButtonOn {
+    border-right-color: #696969;
+    border-bottom-color: #696969;
+    background-image: url("pics/icon.png"), url("pics/scrollBackground.jpg");
+    background-position: 10px 30px, 0px 17px;
+    background-repeat: no-repeat, repeat-x;
+}
+</style>
+
+<script src="code/pageScripts.js"></script>
+<script src="code/socialScripts.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<!-- begin initial twitter code -->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+<!-- end initial twitter code -->
+
+<body>
+<!-- begin initial facebook code -->
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- end initial facebook code -->
+
+<div id="rightLinksBox"><!-- begin rightLinksBox -->
+
+<ul id="share" onmouseover="highliteShare()" onmouseout="resetShare()"><!-- begin share links -->
+<li id="rightLinksCategoryShare">share</li>
+
+<li class="pinterestShare"><!-- begin pinterest pin -->
+<a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"  data-pin-color="red"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" /></a>
+<!-- Please call pinit.js only once per page -->
+<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<!-- end pinterest -->
+</li>
+
+<li class="twitterShare"><!-- begin twitter share -->
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="" data-via="davemiddlebrook" data-size="small" data-related="davemiddlebrook" data-count="none" data-hashtags="textmapping">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</li>
+<!-- end twitter -->
+
+<li class="facebookShare"><!-- begin facebook like. Note: EDIT url to link to current page -->
+<div class="fb-like" data-href="http://www.textmapping.org/index.html" data-width="32px" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+<!-- end facebook -->
+</li>
+
+<li class="linkedinShare"><!-- begin linkedin share -->
+<div id="linkedIn"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/Share"></script></div>
+<!-- end linkedin -->
+</li>
+</ul><!-- end share links -->
+
+<ul id="follow" onmouseover="highliteFollow()" onmouseout="resetFollow()"><!-- begin follow links -->
+<li id="rightLinksCategoryFollow">follow</li>
+
+<li class="pinterestFollow"><!-- begin pinterest follow -->
+<a data-pin-do="buttonFollow" href="http://www.pinterest.com/davemiddlebrook/">follow</a>
+<!-- Please call pinit.js only once per page -->
+<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+</li><!-- end pinterest follow -->
+
+<li class="twitterFollow"><!-- begin twitter follow -->
+<a class="twitter-follow-button" href="https://twitter.com/davemiddlebrook" data-show-count="false" data-show-screen-name="false">
+follow @davemiddlebrook</a>
+</li><!-- end twitter follow -->
+
+<li class="facebookFollow"><!-- begin facebook follow -->
+<div class="fb-follow" data-href="https://www.facebook.com/textmapping" data-layout="button" data-show-faces="false"></div>
+</li><!-- end facebook follow -->
+
+<li class="linkinFollow"><!-- begin linkedin follow -->
+<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/FollowCompany" data-id="1337"></script>
+</li><!-- end linkedin follow -->
+</ul><!-- end follow links -->
+
+<ul id="contact" onmouseover="highliteContact()" onmouseout="resetContact()"><!-- begin contact links -->
+<li id="rightLinksCategoryContact">contact</li>
+<li><a href="mailto:dmiddlebrook@textmapping.org"><button class="contact" onrollover="email()";>email</button></a></li>
+<li><a href="tel:+1-609-771-1781"><button class="contact">call</button></a></li>
+<li><a href="http://www.linkedin.com/in/davemiddlebrook"><button class="contact">linkedin</button></a></li>
+<li><a href="sms:6097711781@tmomail.net"><button class="contact">text</button></a></li>
+<li><a href="Dave%20Middlebrook.vcf"><button class="contact">vCard</button></a></li>
+</ul><!-- end contact links -->
+</div><!-- end rightLinksBox -->
+    
+<div id="header" onmouseout="reloadTopMenuHome()"><!-- begin #header-->
+
+<!--<a href="index.html" title="home"><div id="logoBox" onmouseover="rolloverHome()" onmouseout="reloadTopMenuHome()"><!-- begin #logoBox and #tagLine -->
+<!--<img id="scrollLogo" src="pics/logo.png"><span id="tagLine">The <a href="index.html" title="home">home</a> of  <img src="pics/icon.png" style="width: 16px; height: 16px; vertical-align: -2px;"><a id="tagLineScrollsLink" href="whyUseScrolls.pdf" title="why use scrolls?">scrolls</a> in education</span></div></a>-->
+
+<!-- begin #logoBox and #tagLine -->
+<a id="logoBox" onmouseover="rolloverHome()" onmouseout="reloadTopMenuHome()" href="index.html" title="home">
+<img id="scrollLogo" src="pics/logo.png"><span id="tagLine">The <span id="topLinkHome" title="home" alt="home page">home</span> of <img src="pics/icon.png" style="width: 16px; height: 16px; vertical-align: -2px;">scrolls in education</span></a>
+    
+<div id="topMenu"><!-- begin #topMenu -->
+<! -- NOTE: For each of the main pages, add class="topButtonOn" to current img tag, just before the src.  Then delete it from the other page link in the #topMenu.  Also, adjust styling of opacity, border-bottom-color, and border-radius  in header stylesheet so that all links to left of active link are connected to scroll line -->
+    <a href="books.html" title="books and articles; how and why to use scrolls and textmapping in your classroom"><img id="topButtonBooks" src="pics/buttonTopBooks.png" style="width: 66px; height: 36px;" onmouseover="rolloverBooks()"></a> <a href="workshops.html" title="workshops and professional development for teachers"><img id="topButtonWorkshops" src="pics/buttonTopWorkshops.png" style="width: 105px; height: 30px;" onmouseover="rolloverWorkshops()"></a> <a href="research.html" title="what the research says about scrolls and textmapping"><img id="topButtonResearch" src="pics/buttonTopResearch.png" style="width: 84px; height: 30px;" onmouseover="rolloverResearch()"></a> <a href="about.html" title="about"><img id="topButtonAbout" src="pics/buttonTopAbout.png" style="width: 66px; height: 36px;" onmouseover="rolloverAbout()"></a>
+</div><!-- end #topMenu -->
+</div><!-- end #header -->
+    
+<div id="contentBox"><!-- begin contentBox -->
+
+<div class="colBox">
+<a href="whyUseScrolls.pdf"><h1>Why Use Scrolls?</h1></a>
+
+<p><img src="pics/firstGradersLeaningOver.jpg" style="width: 100%; height: 100%;">Why use scrolls?  Because scrolls are better than books!  They are much better for teaching and learning.  No other book form &mdash; ancient or modern, paper or digital &mdash; can match the unrolled scroll for these important, teacher/learner&ndash;friendly attributes:</p>
+
+<ul>
+    <li>clarity and transparency</li>
+    <li>ease of navigation</li>
+    <li>random access</li>
+    <li>multisensory access</li>
+    <li>rich, comprehensive support for...
+        <ul>
+            <li>exploration and discovery</li>
+            <li>skimming, scanning, deep reading and comprehension</li>
+            <li>strategic, big&ndash;picture thinking
+            <li>the use of concrete thinking to drive abstraction</li>
+            <li>shared learning and engaged discussion</li>
+            <li>instruction that is literally <em>explicit</em> &mdash; i.e., <em>unrolled</em> (<em>ex</em> + <em>plicare</em>), hence <em>wide open to understanding</em>.  This is the original, ancient meaning of the word &mdash; a word coined by scribes to describe the rolled books of antiquity.</li>
+        </ul></li>
+</ul>
+
+<p><a href="whyUseScrolls.pdf" class="readMore">read more</a></p>
+</div><!-- end colBox -->
+
+<div class="colBox"> <!-- begin colBox -->
+<h1>Why Use Textmapping?</h1>
+<img src="pics/textbookOnWhiteboard.jpg" style="width: 100%; height: 100%">
+</div><!-- end colBox -->
+    
+<div class="colBox"><!-- begin colBox -->
+<h1>Is this how people used scrolls in the Ancient World?</h1>
+<p>Nope.</p>
+
+<p><a href="howScrollsWereUsed.pdf" class="readMore">read more</a></p>
+</div><!-- end colBox -->
+    
+<div class="colBox"><!-- begin colBox -->
+<h1>Is this how people used scrolls in the Ancient World?</h1>
+<p>Nope.</p>
+
+<p><a href="howScrollsWereUsed.pdf" class="readMore">read more</a></p>
+</div><!-- end colBox -->
+    
+<div class="colBox"><!-- begin colBox -->
+<h1>Is this how people used scrolls in the Ancient World?</h1>
+<p>Nope.</p>
+
+<p><a href="howScrollsWereUsed.pdf" class="readMore">read more</a></p>
+</div><!-- end colBox -->
+    
+<div class="colBox"><!-- begin colBox -->
+<h1>Is this how people used scrolls in the Ancient World?</h1>
+<p>Nope.</p>
+
+<p><a href="howScrollsWereUsed.pdf" class="readMore">read more</a></p>
+</div><!-- end colBox -->
+</div><!-- end contentBox -->
+
+<div id="bottomBox"><!-- begin bottomBox -->
+<ul class="bottomLinks">
+<li class="bottomLinksTopLevel"><a href="index.html" title="home">home</a></li>
+</ul>
+<ul class="bottomLinks">    
+<li class="bottomLinksTopLevel"><a href="books.html" title="books and articles; how and why to use scrolls and textmapping in your classroom">books</a></li>
+<li>link 1</li>
+<li>link 2</li>
+<li>link 3</li>
+<li>link 4</li>
+</ul>
+<ul class="bottomLinks">
+<li class="bottomLinksTopLevel"><a href="workshops.html" title="workshops and professional development for teachers">workshops</a></li>
+<li>link 1</li>
+<li>link 2</li>
+<li>link 3</li>
+<li>link 4</li>
+</ul>
+<ul class="bottomLinks">
+<li class="bottomLinksTopLevel"><a href="research.html" title="what the research says about scrolls and textmapping">research</a></li>
+<li>link 1</li>
+<li>link 2</li>
+<li>link 3</li>
+<li>link 4</li>
+</ul>
+<ul class="bottomLinks">
+<li class="bottomLinksTopLevel"><a href="about.html" title="about">about</a></li>
+<li>copyright</li>
+<li>guidelines for using my content</li>
+<li>link 3</li>
+<li>link 4</li>
+</ul>
+</div><!-- end bottomBox -->
+
+
+<div id="copyright"><!-- begin Creative Commons License -->
+<p>Unless otherwise noted, the content on this web page is &#169; 2002-2007 R. David Middlebrook, and may be freely used for non&#45;commercial purposes under the terms of the  <a href="http://creativecommons.org/licenses/by-nc-sa/2.0" title="link to the Creative Commons Public License"><abbr title="Creative Commons Public License">CCPL</abbr></a>.<!-- /Creative Commons License --> <a href="copyright.html#howToUseContent">Guidelines for Using My Content</a>.  For more information, see my <a href="copyright.html">copyright</a> page. Please provide <a href="copyright.html#properAttribution" title="how to cite this web site">proper attribution</a>.
+</div><!-- end Creative Commons License -->
+
+</body>
+</html>
