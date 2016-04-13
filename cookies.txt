@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+textmapping.org	TRUE	/	FALSE	1999999999	TS0194eee0	010bd78044135d5da0bfa4f731a0f7ac1cde3a219e136dd4bd0009c436a7fb8a48031e4dda
+

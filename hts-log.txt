@@ -1,0 +1,10 @@
+HTTrack3.48-1+libhtsjava.so.2 launched on Sat, 05 Dec 2015 20:25:10 at http://http://textmapping.org/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -iC2 http://http://textmapping.org/ -O "/home/selfspunwebs/websites/textmappingRedesign" -n -%P -p7 -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2013], %s -->" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:25:11	Error: 	"Forbidden" (403) at link http://textmapping.org/ (from primary/primary)
+20:25:11	Warning: 	No data seems to have been transferred during this session! : restoring previous one!
